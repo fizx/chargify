@@ -4,16 +4,13 @@ require 'shoulda/tasks'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "chargify"
+    gem.name = "fizx-chargify"
     gem.summary = %Q{Ruby wrapper for the chargify.com SAAS and billing API}
     gem.description = %Q{Ruby wrapper for the chargify.com SAAS and billing API}
     gem.email = "wynn.netherland@gmail.com"
     gem.homepage = "http://github.com/pengwynn/chargify"
     gem.authors = ["Wynn Netherland","Nash Kabbara"]
     
-    gem.add_dependency('hashie', '~> 0.1.3')
-    gem.add_dependency('httparty', '~> 0.4.5')
-
     gem.add_development_dependency('thoughtbot-shoulda', '>= 2.10.1')
     gem.add_development_dependency('jnunemaker-matchy', '0.4.0')
     gem.add_development_dependency('mocha', '0.9.4')
